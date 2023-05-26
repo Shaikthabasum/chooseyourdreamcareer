@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+nav{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(143, 166, 228);
+    height: 40px;
+    padding: 70px; /*increace menu bar */
+    width:100%;
+    margin:auto;
+    
+
+}
+ul{
+    
+    list-style: none;
+    display: flex;
+    margin:0 20px;
+}
+li{
+    
+    margin: 0 10px;
+    font-size: 30px; /*incerease  */
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    
+}
+a {
+    
+    text-decoration: none;
+    color: rgb(23, 23, 23);
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    
+    
+
+}
+a:hover {
+    color: rgb(9, 18, 18);
+    border: 10px 5px ;
+    background-color: azure;
+   
+
+}
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 100px;
+
+    
+}
+.logo img {
+     width:330%;   /*logo image width increase */
+    height: 330%;  /* logo   imge height increase */
+    object-fit: contain;
+    object-position: center;
+}
+.logo {
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px;
+    height:40px;
+    width:30px;
+    /* float: left; */
+    
+
+}
+
+
+
+   /* nav bar and logo part uparkay-------------------------- */
+
+
+#section1{
+    background-image:url("./img/Career-Month-1_Drupal-1536x1023.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #d93434;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+     width: 100%;
+}
+.section1-content{
+    width: 90%;
+    height: 30px;
+    height: fit-content;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    transform: translateX(-04%);
+    text-align: center;
+   color: rgb(22, 21, 21);
+   text-shadow:rgb(23, 3, 23);
+   margin-left: 20px;
+
+    
+}
+
+.career-section {
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    background-color: rgb(29, 28, 32);
+    width: 80%;
+    height: fit-content;
+    border: 5px solid rgb(157, 149, 227);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px black;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    
+} 
+button{
+    background-color: rgb(204, 197, 219);
+    color: #000;
+    font-size: 20px;
+    border: 2px solid rgb(193, 27, 27);
+}
+/* ----------------section2- about us---------------------------------------------- */
+
+#section2{
+    height: 700px;
+    background-color: rgb(246, 226, 226);
+    display: inline-block;
+    width: 100%;
+}
+.section2-content h2 p {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 10px;  
+    justify-content: center;
+} 
+ img{
+    width: 380px;
+    height: 380px;   /*increase  height /wight  size */
+    object-fit: contain;
+    object-position: center;
+    flex-shrink: 0;
+    margin-right: 30px;
+} 
+
+.section2-content img{
+    height:350px;
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.section2-content-button{
+    text-align: center;
+    background-color: rgb(140, 117, 233);
+    color: rgb(14, 13, 11);
+    width: 80px;
+    height:30px;
+    border: 3px solid rgb(19, 18, 18);
+    justify-content: center;
+    margin-left: 720px;
+    padding-bottom: 20px;
+    
+
+}
+/* ----------------section 3 service---------------------------------- */
+#section3 {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background: cover;
+}
+.section3-container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-wrap: wrap;
+    font-size: 12px;
+
+}
+.grid-items img { 
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    flex-basis: 30%;
+    display: flex;
+    -ms-flex-align: start;
+    flex-direction: column;
+     margin: 20px 0px;  
+    text-align: center;
+    padding: 0px 10px; 
+    background-color: rgb(169, 154, 215); 
+    box-shadow: 0px 0px 10px 3px rgb(145, 205, 145); 
+    border: 5px solid black;
+    border-radius: 15px;
+    object-fit:contain ;
+    object-position:center;
+    margin-right: 30px; 
+    height: 80px; 
+    width: 250px;
+    gap: 4rem; 
+}
+/* -----------------------------section4 -------------------------------------------- */
+#section4 {
+    height: 500px;
+    background-color: rgb(134, 128, 214);
+    display: inline-block;
+    width: 100%;
+    margin: 20px;
+    margin-top: 20px;
+}
+/* --------------------------loginform- section4---------------------------------------------------------------------------- */
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+
+/* ----------------------------register section 5--------------------------------------------------------------- */
+#section5{
+    height: 950px;
+    background-color: rgb(112, 116, 227);
+    display: inline-block;
+    width: 100%;
+    margin: 20px;
+    margin-top: 20px;
+} 
+/* ---------registerform--------------------------- */
+/* form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: center;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #9073e0;
+    align-items: center;
+    text-align: center;
+  } */
+
+
+
+  .form-group {
+    margin-bottom: 20px;
+    background-color: url(./img/Career-Month-1_Drupal-1536x1023.png);
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"],
+  select {
+    width: 300px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+  }
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
